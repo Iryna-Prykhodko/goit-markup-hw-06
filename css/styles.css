@@ -280,7 +280,7 @@ img {
 .register-form-field{
   display: block;
   margin-bottom: 10px;
-
+position: relative;
 }
 
 label{
@@ -294,6 +294,7 @@ font-size: 12px;
 line-height: 1.17;
 letter-spacing: 0.01em;
 color:var(--third-text-cl);
+margin-bottom: 4px;
 }
 
 .register-form-input{
@@ -303,7 +304,27 @@ border: 1px solid rgba(33, 33, 33, 0.2);
 border-radius: 4px;
 padding-left: 42px;
 padding-right: 42px;
+outline: transparent;
+transition: border-color var(--transition)
 }
+
+.register-form-input:focus{
+  border-color:#2196F3;
+
+}
+
+.register-form-icon{
+position: absolute;
+bottom: 11px;
+left: 12px;
+transition: fill var(--transition);
+}
+
+.register-form-input:focus + .register-form-icon{
+  fill: #2196f3;
+}
+
+
 
 .register-form-agreement{
   display: flex;
