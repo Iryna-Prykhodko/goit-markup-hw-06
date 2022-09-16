@@ -502,14 +502,18 @@
           <use href="./images/icons.svg#linkedin"></use>
         </svg></a></li>
       </div>
-      <div>
+      <div class="footer-subscription">
         <form name="signup_form" autocomplete="on">
-          <label>
+          <label class="footer-subscription-label">
             <span class="subtitle subtitle-footer">Підпишіться на розсилку</span>
-            <input type="email" name="email" />
+            <div class="footer-subscription-box">
+            <input class="footer-subscription-mail" type="email" name="email" placeholder="E-mail"/>
           </label>
-          <button type="submit">
-            Підписатися</button>
+          <button class="footer-subscription-btn" type="submit">
+            Підписатися<svg class="sign-up" width="24" height="24">
+              <use href="./images/icons.svg#sign-up"></use>
+             </svg></button>
+          </div>
         </form>
       </div>
       </div>

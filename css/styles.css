@@ -684,6 +684,59 @@ address {
   color: var(--accent-bg-cl);
 }
 
+.footer-subscription{
+  /*display: flex;
+    align-items: center;
+    justify-content: center;*/
+    margin-left: 93px;
+    
+}
+
+.footer-subscription-box{
+  display: flex;
+  align-items: flex-end;
+    justify-content: flex-end;
+  padding-top: 20px;}
+
+
+.footer-subscription-mail{
+  box-sizing: border-box;
+padding-left: 16px;
+width: 358px;
+height: 50px;
+border: 1px solid rgba(255, 255, 255, 0.3);
+background-color: var(--second-bg-cl);
+border-radius: 4px;
+}
+
+
+.footer-subscription-btn{
+  display: flex;
+  align-items: center;
+    justify-content: center;
+  width: 200px;
+  height: 50px;
+  color: #FFFFFF;
+  background: #2196F3;
+margin-left: 12px;
+border-radius: 4px;
+border-color:#2196F3;
+}
+
+.sign-up{
+  fill: #FFFFFF;
+  margin-left: 10px;
+  
+}
+
+
+/*.footer-subscription-btn{
+  display: flex;
+  align-items: center;
+    justify-content: center;
+}*/
+
+
 .button:hover,
 .button:focus {
   color: var(--fourth-text-cl);
