@@ -712,9 +712,6 @@ address {
 }
 
 .footer-subscription{
-  /*display: flex;
-    align-items: center;
-    justify-content: center;*/
     margin-left: auto;
     
 }
@@ -750,13 +747,18 @@ font-weight: 700;
 font-size: 16px;
 line-height: 1.88;
 letter-spacing: 0.06em;
-  background: #2196F3;
+background: #2196F3;
 margin-left: 12px;
 box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-
 border-radius: 4px;
 border:none;
 cursor: pointer;
+transition: background-color var(--transition);
+}
+
+.footer-subscription-btn:hover,
+.footer-subscription-btn:focus {
+  background-color: #188ce8;
 }
 
 .sign-up{
